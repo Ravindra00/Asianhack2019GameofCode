@@ -1,0 +1,481 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <title>Notify-Me | An Platform for all events!</title>
+    <!-- Favicon-->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+
+<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <!-- Google Webfonts -->
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,100,500' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <!-- popup css -->
+    
+    <!--  Animate.css -->
+    <link rel="stylesheet" href="blog/css/animate.css">
+    <!-- Icomoon Icon Fonts-->
+    <link rel="stylesheet" href="blog/css/icomoon.css">
+    <!-- Magnific Popup -->
+    <link rel="stylesheet" href="blog/css/magnific-popup.css">
+    <!-- Salvattore -->
+    <link rel="stylesheet" href="blog/css/salvattore.css">
+    <!-- Theme Style -->
+    <link rel="stylesheet" href="blog/css/style.css">
+    <!-- Modernizr JS -->
+    <script src="blog/js/modernizr-2.6.2.min.js"></script>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&subset=latin,cyrillic-ext" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css">
+    <!-- Bootstrap Core Css -->
+    <link href="plugins/bootstrap/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Waves Effect Css -->
+    <link href="plugins/node-waves/waves.css" rel="stylesheet" />
+
+    <!-- Animation Css -->
+    <link href="plugins/animate-css/animate.css" rel="stylesheet" />
+
+    <!-- Morris Chart Css-->
+    <link href="plugins/morrisjs/morris.css" rel="stylesheet" />
+
+    <!-- Custom Css -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- AdminBSB Themes. You can choose a theme from css/themes instead of get all themes -->
+    <link href="css/themes/all-themes.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style1.css">
+</head>
+
+<body class="theme-red">
+    <div class="overlay"></div>
+    <!-- #END# Overlay For Sidebars -->
+    <!-- Search Bar -->
+    <div class="search-bar">
+        <div class="search-icon">
+            <i class="material-icons">search</i>
+        </div>
+        <input type="text" placeholder="SEARCH EVENTS...">
+        <div class="close-search">
+            <i class="material-icons">close</i>
+        </div>
+    </div>
+    <!-- #END# Search Bar -->
+    <!-- Top Bar -->
+    <nav class="navbar">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a href="javascript:void(0);" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false"></a>
+                <a href="javascript:void(0);" class="bars"></a>
+                <a class="navbar-brand" href="index.html"><i class="fa fa-notification">Notify</i></a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <!-- Call Search -->
+                    <li><a href="javascript:void(0);" class="js-search" data-close="true"><i class="material-icons">search</i></a></li>
+                    <!-- #END# Call Search -->
+                    <!-- Notifications -->
+                    <li class="dropdown">
+                        <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button">
+                            <i class="material-icons">notifications</i>
+                            <span class="label-count">7</span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li class="header">NOTIFICATIONS</li>
+                            <li class="body">
+                                <ul class="menu">
+                                    <li>
+                                        <a href="javascript:void(0);">
+                                            <div class="icon-circle bg-light-green">
+                                                <i class="material-icons">person_add</i>
+                                            </div>
+                                            <div class="menu-info">
+                                                <h4>12 new members joined</h4>
+                                                <p>
+                                                    <i class="material-icons">access_time</i> 14 mins ago
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0);">
+                                            <div class="icon-circle bg-cyan">
+                                                <i class="material-icons">add_shopping_cart</i>
+                                            </div>
+                                            <div class="menu-info">
+                                                <h4>Hackathon Event Nearby</h4>
+                                                <p>
+                                                    <i class="material-icons">access_time</i> 22 mins ago
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0);">
+                                            <div class="icon-circle bg-red">
+                                                <i class="material-icons">delete_forever</i>
+                                            </div>
+                                            <div class="menu-info">
+                                                <h4><b>Softerica Posted Intern For web developer</b></h4>
+                                                <p>
+                                                    <i class="material-icons">access_time</i> 3 hours ago
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0);">
+                                            <div class="icon-circle bg-orange">
+                                                <i class="material-icons">mode_edit</i>
+                                            </div>
+                                            <div class="menu-info">
+                                                <h4><b>IT MeetUp</b> date postponed</h4>
+                                                <p>
+                                                    <i class="material-icons">access_time</i> 2 hours ago
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                        <a href="javascript:void(0);">
+                                            <div class="icon-circle bg-light-green">
+                                                <i class="material-icons">cached</i>
+                                            </div>
+                                            <div class="menu-info">
+                                                <h4><b>John</b> updated status</h4>
+                                                <p>
+                                                    <i class="material-icons">access_time</i> 3 hours ago
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:void(0);">
+                                            <div class="icon-circle bg-purple">
+                                                <i class="material-icons">settings</i>
+                                            </div>
+                                            <div class="menu-info">
+                                                <h4>Settings updated</h4>
+                                                <p>
+                                                    <i class="material-icons">access_time</i> Yesterday
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="footer">
+                                <a href="javascript:void(0);">View All Notifications</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- #END# Notifications -->
+                    <!-- Tasks -->                         <li class="footer">
+                               <a href="#"><i class="material-icons">input</i>Sign Out</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- #END# Tasks -->
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- #Top Bar -->
+    <section>
+        <!-- Left Sidebar -->
+        <aside id="leftsidebar" class="sidebar">
+            <!-- User Info -->
+            <div class="user-info">
+                <div class="image">
+                    <img src="images/user.png" width="48" height="48" alt="User" />
+                </div>
+                <div class="info-container">
+                    <div class="name" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Ravindra Pandey</div>
+                    <div class="email">info@ravindrapandey.com.np</div>
+                    </div>
+                </div>
+            </div>
+            <!-- #User Info -->
+            <!-- Menu -->
+            <div class="menu">
+                <ul class="list">
+                    <li class="header">MAIN NAVIGATION</li>
+                    <li class="active">
+                        <a href="index.html">
+                            <i class="material-icons">home</i>
+                            <span>Home</span>
+                        </a>
+                    </li>
+                    <li>
+                    <a href="#"><i class="material-icons">person</i><span>Profile</a></span></li>
+                            <li role="separator" class="divider">
+                    <li>
+                        <a href="javascript:void(0);" class="menu-toggle">
+                           <i class="fas fa-laptop-code"></i>
+
+
+                            <span>Information Technology</span>
+                        </a>
+                        <ul class="ml-menu">
+                                    <li>
+                                        <a href="#">Hackathon</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">IT-Meet</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Free Workshops</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Interns</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Vacancy</a>
+                                    </li>
+                                </ul>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);" class="menu-toggle">
+                            <i class="fas fa-cogs"></i>
+
+
+                            <span>Engineering</span>    
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);" class="menu-toggle">
+                           <i class="fas fa-concierge-bell"></i>    
+                            <span> Hotel Management</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);" class="menu-toggle">
+                            <i class="fas fa-chalkboard-teacher"></i>
+                            <span>Science Exihibition</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);" class="menu-toggle"vascript:void(0);">
+                            <!-- <i class="material-icons">widgets</i> -->
+                            <i class="fas fa-user-md"></i>
+                            <span> Medical</span>
+                        </a>
+                        </li>
+                </li>
+
+                    <li>
+                        <a href="javascript:void(0);" class="menu-toggle">
+                            <i class="fas fa-bullhorn"></i>
+                            <span> Interns</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0);" class="menu-toggle">
+                           <i class="fas fa-user-plus"></i>
+                            <span> Vacancy</span>
+                        </a>
+                    </li>         
+            <!-- #Menu  -->
+           <!-- </aside> -->
+        <!-- #END# Left Sidebar -->
+    </section>
+
+    <section class="content">
+        <div class="container-fluid">
+            <div class="block-header">
+                <h2>Filter Events...</h2>
+            </div>
+
+<button type="button" class="btn btn-secondary btn-lg"><span>Hackathon</span></button>
+<button type="button" class="btn btn-secondary btn-lg"><span>Science exhibition</span></button>
+<button type="button" class="btn btn-secondary btn-lg"><span>Food Fest</span></button>
+<button type="button" class="btn btn-secondary btn-lg"><span>Interns</span></button>
+<button type="button" class="btn btn-secondary btn-lg"><span>Vacancy</span></button>
+<button type="button" class="btn btn-secondary btn-lg"><span>Workshops</span></button><br> <br>
+<button class="open-button" onclick="openForm()"><span> POST EVENT</span></button> 
+<div class="form-popup" id="myForm">
+  <form class="form-container">
+    <h3>POST EVENT</h5>
+    <h5> Your post will be posted after approval from admin</p>
+    <label for="email"><b>Event Name:</b></label>
+    <input type="text" placeholder="event name..." required>
+
+    <label for="email"><b>Event Detail:</b></label>
+    <input type="text" placeholder="event details" required>
+
+    <label for="date"><b>Event Date:</b></label>
+    <input type="text" placeholder="event detail..."required>
+
+    <label for="email"><b>Source:</b></label>
+    <input type="text" placeholder="How did you know about the eventl"  required>
+
+    <button type="submit" class="btn">submit</button>
+    <button type="submit" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
+
+<!-- post from another page -->
+<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4" style="color: red;">
+    <div class="card">
+        <div class="header">
+            <h2><b>Hackathon</b> 24 May,2019</h2>
+        </div>
+        <div class="body">
+            <img src="images/hack.jpg" alt="test_img" height="200px" width="250px">
+            <p> <b>Event Name: AsianHack2019</b></p>
+            <p> <b>Event Venue: ASMT</b></p>
+            <p> <b>location:</b></p><iframe src="https://www.google.com/maps/embed?pb=" width="200" height="250" frameborder="0" style="border:0" allowfullscreen></iframe></p>
+             <button class="btn-primary"> Read More</button>
+        </div>
+    </div>
+</div>
+<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4" style="color: red;">
+    <div class="card">
+        <div class="header">
+            <h2><b>Food Fest</b> 25 May,2019</h2>
+        </div>
+        <div class="body">
+            <img src="images/food_fest.jpg" alt="test_img" height="200px" width="250px">
+            <p> <b>Event Name: Food Festival9</b></p>
+            <p> <b>Event Venue: Hotel Management College</b></p>
+            <p> <b>location:</b></p><iframe src="https://www.google.com/maps/embed?pb=" width="200" height="250" frameborder="0" style="border:0" allowfullscreen></iframe></p>
+             <button class="btn-primary"> Read More</button>
+        </div>
+    </div>
+</div>
+<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4" style="color: red;">
+    <div class="card">
+        <div class="header">
+            <h2><b>IT-Meet</b> 26 May,2019</h2>
+        </div>
+        <div class="body">
+            <img src="images/itmeet.png" alt="test_img" height="200px" width="250px">
+            <p> <b>Event Name: IT-Meet</b></p>
+            <p> <b>Event Venue: Kathmandu University</b></p>
+            <p> <b>location:</b></p><iframe src="https://www.google.com/maps/embed?pb=" width="200" height="250" frameborder="0" style="border:0" allowfullscreen></iframe></p>
+             <button class="btn-primary"> Read More</button>
+        </div>
+    </div>
+</div>
+<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4" style="color: red;">
+    <div class="card">
+        <div class="header">
+            <h2><b>Hackathon</b> 24 May,2019</h2>
+        </div>
+        <div class="body">
+            <img src="images/hack.jpg" alt="test_img" height="200px" width="250px">
+            <p> <b>Event Name: AsianHack2019</b></p>
+            <p> <b>Event Venue: Asian College Of Management And Technology</b></p>
+            <p> <b>location:</b></p><iframe src="https://www.google.com/maps/embed?pb=" width="200" height="250" frameborder="0" style="border:0" allowfullscreen></iframe></p>
+             <button class="btn-primary"> Read More</button>
+        </div>
+    </div>
+</div>
+<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4" style="color: red;">
+    <div class="card">
+        <div class="header">
+            <h2><b>Hackathon</b> 24 May,2019</h2>
+        </div>
+        <div class="body">
+            <img src="images/hack.jpg" alt="test_img" height="200px" width="250px">
+            <p> <b>Event Name: AsianHack2019</b></p>
+            <p> <b>Event Venue: Asian College Of Management And Technology</b></p>
+            <p> <b>location:</b></p><iframe src="https://www.google.com/maps/embed?pb=" width="200" height="250" frameborder="0" style="border:0" allowfullscreen></iframe></p>
+             <button class="btn-primary"> Read More</button>
+             <button class="btn-primary"> Book Event</button>
+        </div>
+    </div>
+</div>
+<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4" style="color: red;">
+    <div class="card">
+        <div class="header">
+            <h2><b>Hackathon</b> 24 May,2019</h2>
+        </div>
+        <div class="body">
+            <img src="images/hack.jpg" alt="test_img" height="200px" width="250px">
+            <p> <b>Event Name: AsianHack2019</b></p>
+            <p> <b>Event Venue: Asian College Of Management And Technology</b></p>
+            <p> <b>location:</b></p><iframe src="https://www.google.com/maps/embed?pb=" width="200" height="250" frameborder="0" style="border:0" allowfullscreen></iframe></p>
+            <button class="btn-primary"> Read More</button>
+        </div>
+    </div>
+</div>
+</div>
+    </section>
+
+    <!-- posts demo ends -->
+
+
+     <!-- Jquery Core Js -->
+    <script src="plugins/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core Js -->
+    <script src="plugins/bootstrap/js/bootstrap.js"></script>
+
+    <!-- Select Plugin Js -->
+    <script src="plugins/bootstrap-select/js/bootstrap-select.js"></script>
+
+    <!-- Slimscroll Plugin Js -->
+    <script src="plugins/jquery-slimscroll/jquery.slimscroll.js"></script>
+
+    <!-- Waves Effect Plugin Js -->
+    <script src="plugins/node-waves/waves.js"></script>
+
+    <!-- Jquery CountTo Plugin Js -->
+    <script src="plugins/jquery-countto/jquery.countTo.js"></script>
+
+    <!-- Morris Plugin Js -->
+    <script src="plugins/raphael/raphael.min.js"></script>
+    <script src="plugins/morrisjs/morris.js"></script>
+
+    <!-- ChartJs -->
+    <script src="plugins/chartjs/Chart.bundle.js"></script>
+
+    <!-- Flot Charts Plugin Js -->
+    <script src="plugins/flot-charts/jquery.flot.js"></script>
+    <script src="plugins/flot-charts/jquery.flot.resize.js"></script>
+    <script src="plugins/flot-charts/jquery.flot.pie.js"></script>
+    <script src="plugins/flot-charts/jquery.flot.categories.js"></script>
+    <script src="plugins/flot-charts/jquery.flot.time.js"></script>
+
+    <!-- Sparkline Chart Plugin Js -->
+    <script src="plugins/jquery-sparkline/jquery.sparkline.js"></script>
+
+    <!-- Custom Js -->
+    <script src="js/admin.js"></script>
+    <script src="js/pages/index.js"></script>
+
+    <!-- Demo Js -->
+    <script src="js/demo.js"></script>
+    <!-- from post -->
+    <!-- jQuery -->
+    <script src="js/jquery.min.js"></script>
+    <!-- jQuery Easing -->
+    <script src="js/jquery.easing.1.3.js"></script>
+    <!-- Bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Waypoints -->
+    <script src="js/jquery.waypoints.min.js"></script>
+    <!-- Magnific Popup -->
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <!-- Salvattore -->
+    <script src="js/salvattore.min.js"></script>
+    <!-- Main JS -->
+    <script src="js/main.js"></script>
+    <script>
+    function openForm() {
+  document.getElementById("myForm").style.display = "block";
+}
+
+function closeForm() {
+  document.getElementById("myForm").style.display = "none";
+}
+</script> 
+</body>
+
+</html>
